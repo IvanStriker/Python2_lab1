@@ -20,8 +20,8 @@ theme:
         icon: material/brightness-7
         name: Переключить на тёмную тему
   features:
-    - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - search.highlight
     - content.code.copy
@@ -32,6 +32,7 @@ nav:
   - Лабораторные работы:
     - Обзор: labs/index.md
     - Лабораторная работа 1: labs/lab1.md
+    - Лабораторная работа 2: labs/lab2.md
 
 markdown_extensions:
   - pymdownx.highlight:
